@@ -7,21 +7,21 @@ document.getElementById('change-background').addEventListener('click', backgroun
 
 // These will cause something to change when the button is clicked that the function is associated with.
 function image () {
-  document.getElementById('apple').src ="./Images/core.PNG"
+  document.getElementById('apple').src = './Images/core.PNG'
 }
 function text () {
-  document.getElementById('text-change').innerHTML = "The text has now changed color" 
-  document.getElementById('text-change').style.color = "tomato"
+  document.getElementById('text-change').innerHTML = 'The text has now changed color'
+  document.getElementById('text-change').style.color = 'tomato'
 }
 
 function hide () {
-  document.getElementById('text-change').style.display = "none"
+  document.getElementById('text-change').style.display = 'none'
 }
 
 function show () {
-  document.getElementById('text-change').style.display = "block"
+  document.getElementById('text-change').style.display = 'block'
 }
 
 function background () {
-  document.body.style.backgroundColor = "beige"
+  document.body.style.backgroundColor = 'beige'
 }
